@@ -10,59 +10,102 @@
     height: 25rem;
 }
 
-.center-box {
+.center {
     width: 70%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .dashed {
     border: 1px dashed black;
+}
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.bg-azzurro {
+    background-color: #ADD8E6;
+}
+
+.bg-pink {
+    background-color: #FFC0CB;
+}
+
+.bg-blue {
+    background-color: #1E90FF;
+}
+
+.bg-grey {
+    background-color: #D3D3D3;
 }
 
 /*+++++++++++ NAV STYLE +++++++++++*/
 
-.bg-azzurro {
-    background-color: #ADD8E6;
+body>.bg-azzurro {
     padding-top: 0.5rem;
 }
 
-.bg-azzurro>nav {
+nav {
     background-color: #DAA520;
     display: flex;
 }
 
+/* ++++++++++++++++++++++++++++++++ */
+nav>div {
+    padding: 0.5rem 0.2rem;
+}
+
 .logo {
     width: 25%;
-    padding: 0.5rem 0.2rem;
-
 }
 
 .login {
     width: 25%;
-    padding: 0.5rem 0.2rem;
-
     text-align: right;
 }
 
 .link {
     width: 50%;
-    padding: 0.5rem 0.2rem;
-
     text-align: center;
 }
 
+/* ++++++++++++++++++++++++++++++++ */
 .rettangolo-main {
     height: 88%;
     margin-top: 0.5rem;
     background-color: #00008B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rettangolo-pink {
     width: 50%;
     height: 80%;
-    margin: auto;
     background-color: #EE82EE;
-    position: relative;
-    top: calc(20% / 2);
 }
+
+/*+++++++++++1*_2*_3* Sezione STYLE +++++++++++*/
+.sezione-std {
+    padding-top: 2.5rem;
+}
+
+.rettangolo-std {
+    height: 20rem;
+}
+
+.p-right {
+    width: 40%;
+    height: 100%;
+}
+
+.p-left {
+    width: 60%;
+    height: 100%;
+}
+
+/*+++++++++++4* Sezione STYLE +++++++++++*/
