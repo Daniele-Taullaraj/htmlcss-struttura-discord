@@ -1,5 +1,68 @@
+/*+++++++++++ COMMON STYLE +++++++++++*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    height: 25rem;
+}
+
+.center-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.dashed {
+    border: 1px dashed black;
+
+}
+
+/*+++++++++++ NAV STYLE +++++++++++*/
+
+.bg-azzurro {
+    background-color: #ADD8E6;
+    padding-top: 0.5rem;
+}
+
+.bg-azzurro>nav {
+    background-color: #DAA520;
+    display: flex;
+}
+
+.logo {
+    width: 25%;
+    padding: 0.5rem 0.2rem;
+
+}
+
+.login {
+    width: 25%;
+    padding: 0.5rem 0.2rem;
+
+    text-align: right;
+}
+
+.link {
+    width: 50%;
+    padding: 0.5rem 0.2rem;
+
+    text-align: center;
+}
+
+.rettangolo-main {
+    height: 88%;
+    margin-top: 0.5rem;
+    background-color: #00008B;
+}
+
+.rettangolo-pink {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    background-color: #EE82EE;
+    position: relative;
+    top: calc(20% / 2);
 }
